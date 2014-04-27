@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This is hte makeCacheMatrix funciton. It is used to both get and set the inverse funciton.
 
 makeCacheMatrix <- function(x = matrix()) {
     # initialize the stored inverse value to NULL
@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## The cacheSolve function solves the cacheing issue described in the outline. 
 
 cacheSolve <- function(x, ...) {
     # check if the inverse is already cached
